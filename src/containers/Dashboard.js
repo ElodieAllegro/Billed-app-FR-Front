@@ -161,7 +161,6 @@ export default class {
       // this.counter ++
       this.counterShow ++
     }
-    
     bills.forEach(bill => {    
         $(`#open-bill${bill.id}`).on('click', (e) => {
           this.handleEditTicket(e, bill, bills)
