@@ -51,7 +51,7 @@ describe("Given I am connected as an employee", () => {
 
     // Assertion
     expect(spyCreate).toHaveBeenCalled()
-    spyCreate.mockRestore() // Bien penser à relâcher le mock pour éviter de créer un conflict pour les autres tests
+    spyCreate.mockRestore() 
   })
   test("When I upload a wrong file, it should display an error", () => {
     //Prepare
